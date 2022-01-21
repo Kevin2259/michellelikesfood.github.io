@@ -17,6 +17,185 @@
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    transition: .02s;
+    margin-left: 30px;
+}
+
+.profile-bg-color {
+    background-color: #0a66c2;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 50px;
+}
+
+#Profile-pen {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 10px; */
+    width: 100%;
+}
+
+#Profile-icon-pen {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #0a66c2;
+    /* color: white; */
+}
+
+.Profile-image-icon {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-image: none;
+    background-color: #0a66c2;
+}
+
+.Profile-image {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    /* border: solid white; */
+}
+
+.group-bg-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Profile-proffesion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Profile-location {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.contact-info {
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    color: #0a66c2;
+}
+
+.num-connections-link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    color: #0a66c2;
+}
+
+.Profile-logo-company {
+    width: 40px;
+    height: 40px;
+}
+
+.Profile-logo-college {
+    width: 40px;
+    height: 40px;
+}
+.Profile-company {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Profile-college {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.open-button {
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    background-color: #0a66c2;
+    font-size: 16px;
+    font-weight: 600;
+    outline-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.add-button {
+    text-decoration: none;
+    color: inherit;
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 600;
+    outline-style: solid;
+    outline-width: thin;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.more-button {
+    text-decoration: none;
+    color: inherit;
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 600;
+    outline-style: solid;
+    outline-width: thin;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.button-group {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.profile-logo-proffession-grouping {
+    display: flex;
+}
+
+.profile-sub-grouping {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.logo-title-grouping {
+    margin-left: 50px;
+}
+
+.Profile-company {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Profile-college {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.click-item-2 {
+    padding-left: 10px;
+}
+
+.click-item-3 {
+    padding-left: 10px;
+}
+
+.profile-content-group {
+    padding-left: 20px;
 }
 
 /* Linkedin About Section */
@@ -175,6 +354,11 @@
     transition: .02s;
 }
 
+.Edu-Lic {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 .Edu-title {
     font-size: 20px;
     font-weight: 400;
@@ -193,7 +377,6 @@
 .Edu-sub-section {
     display: flex;
     padding-left: 20px;
-    padding-bottom: 10px;
 }
 
 .Edu-sub-title-icon {
@@ -266,6 +449,105 @@
     padding-bottom: 5px;
 }
 
+/* Linkedin Licenses Section */
+
+.License-Section {
+    background-color:white;
+    outline-style: solid;
+    outline-color: #cfcfcf;
+    outline-width: thin;   
+    height: auto;
+    transition: .02s;
+    padding-top: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Lic-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.Lic-title-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.Lic-sub-section {
+    display: flex;
+    padding-left: 20px;
+}
+
+.Lic-last-sub-section {
+    display: flex;
+    padding-left: 20px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.Lic-sub-title-icon {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding-right: 20px;
+}
+
+.Lic-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.Lic-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.Lic-sub-content {
+    padding-left: 20px;    
+    width: 100%;
+}
+
+.Lic-company {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.Lic-year {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    padding-right: 50px;
+    margin-right: 50px;
+
+}
+
+.Lic-pdf {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.Lic-last-pdf {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Link-pdf {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Linkedin Skills Section */
 
 .Skills-Section {
@@ -303,8 +585,9 @@
     font-size: 16px;
     font-weight: 600;
     background: #ffffff;
-    opacity: 0.8;
+    color: #6e6e6e;
     padding-right: 30px;
+    padding-left: 10px;
     padding-top: 5px;
 }
 
@@ -318,7 +601,14 @@
     outline-color: #024990;
     outline-width: thin;
     border-radius: 20px;
-    padding: 5px 5px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+    vertical-align: middle;
+ }
+
+ .Skill-button {
+    padding-left: 20px;
+
  }
 
  .Skill-title {
@@ -340,8 +630,111 @@
     display: flex;
 }
 
+.Skill-sub-title-group {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.Skill-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.num-endorsments {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e6e6e;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.Endorser {
+    /* display: flex; */
+    padding-left: 20px;
+}
+
+.Number-Endorsers {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Endorsed-type-skill {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+#Clipboard-icon {
+    color:#0a66c2;
+}
+
+.Skill-Assesment {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+.group-icon-assesment {
+    display: flex;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#skill-num-seperation {
+    padding-right: 5px;
+}
+
+.Skill-line-spacing {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Extra-skills {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6e6e6e;
+    padding-left: 20px;
+}
+
+.Exra-num-endorsers {
+    color: #6e6e6e;
+    font-weight: 400!important;
+}
+
+.Extra-skills-num-endorse {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.whole-skill-section {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.second-section {
+    padding-right: 40%;
+}
+
+.main-more-skills {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
 @media (max-width: 860px) {
+
+    .Profile-Section {
+        transition: .02s;
+        margin-left: 0px;
+    }
+
     .About-Section {
         transition: .02s;
         margin-left: 0px;
@@ -366,125 +759,15 @@
         width: 200px;
         word-wrap: break-word;
     }
+
+    .whole-skill-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-title-grouping {
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+    }
 }
-
-
-
-
-/* Profile Section */
-
-
-
-/* About Section */
-
-/* .About-Section {
-    background-color:white;
-    outline-style: solid;
-    outline-color: #cfcfcf;
-    outline-width: thin;   
-    width: 1000px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-#pen-edit {
-    left: 880px;
-    top: 5px;
-}
-
-.Section-Header {
-    font-weight: 500;
-    float: left;
-}
-
-.Section-Header-About {
-    float: left;
-}
-
-.Edit-Mark {
-    float:right;
-}
-
-
-.About-Space {
-    padding: 10px;
-} */
-
-/* Experience Section */
-
-/* .Experience-txt {
-    display:flex;
-    padding: 10px;
-    float: left; 
-}
-
-.Experience-Section {
-    background-color:white;
-    outline-style: solid;
-    outline-color: #cfcfcf;
-    outline-width: thin;   
-    width: 1000px;
-    height: 750px;
-    border-radius: 10px 10px 0px 0px;
-} */
- /* Not this */
-/* .Section-details {
-    padding-right: 20px;
-} */
-
-/* #Exp {
-    font-weight: 500;
-} */
-
- /* Not this */
-
-
-/* .fas{
-    position: relative;
-    left: 830px;
-    top: 15px;
-}
-
-.fab {
-    color:#0e76a8;
-    font-size: 70px;
-    position: absolute;
-    left: 25px;
-}
-
-.Exp-cred {
-    position: relative;
-    left: 100px;
-}
-
-.Exp-cred + h5 {
-    color:black;
-    font-weight: 400;
-}
-#Exp-date {
-    color: #adadad;
-    font-weight: 400;
-}
-
-.Section-details{
-    color:black;
-    font-size: 18px;
-    font-weight: 500;
-    top:5px;
-    
-}
-
-#title-edit {
-    display: flex;
-}
-
-#pen {
-    color:#adadad;
-    left: 41.5rem;
-    top: 0px;
-}
-
-.Exp-info {
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
