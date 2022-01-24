@@ -242,6 +242,11 @@
 
 }
 
+#About-pen {
+  display: flex;
+  align-items: center;
+}
+
 
 /* Linkedin Experience Section */
 
@@ -346,6 +351,16 @@
 
 .Exp-title-location {
     padding-bottom: 5px;
+}
+
+#Exp-plus {
+  display: flex;
+  align-items: center;
+}
+
+#Exp-pen {
+  display: flex;
+  align-items: center;
 }
 
 /* Linkedin Education Section */
@@ -454,6 +469,16 @@
     padding-bottom: 5px;
 }
 
+#Edu-plus {
+  display: flex;
+  align-items: center;
+}
+
+#Edu-pen {
+  display: flex;
+  align-items: center;
+}
+
 /* Linkedin Licenses Section */
 
 .License-Section {
@@ -551,6 +576,16 @@
 .Link-pdf {
     text-decoration: none;
     color: inherit;
+}
+
+#Lic-plus {
+  display: flex;
+  align-items: center;
+}
+
+#Lic-pen {
+  display: flex;
+  align-items: center;
 }
 
 /* Linkedin Skills Section */
@@ -776,4 +811,5 @@
         flex-direction: column;
         visibility: hidden;
     }
+
 }
